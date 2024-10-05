@@ -10,11 +10,15 @@
 
 
     <ImageView
-            android:src="@drawable/gorsel"
-            android:layout_width="243dp"
-            android:layout_height="167dp" android:id="@+id/imageView"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="50dp" android:onClick="gorselSec"/>
+        android:id="@+id/imageView"
+        android:layout_width="357dp"
+        android:layout_height="188dp"
+        android:layout_marginTop="50dp"
+        android:onClick="gorselSec"
+        android:src="@drawable/gorsel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
     <EditText
             android:layout_width="0dp"
             android:layout_height="59dp"

@@ -153,7 +153,7 @@ class TarifFragment : Fragment() {
                             secilenBitmap = ImageDecoder.decodeBitmap(source)
                             binding.imageView.setImageBitmap(secilenBitmap)
                         }else{
-                            secilenBitmap = MediaStore.Images.Media.getBitmap(activity?.contentResolver, secilenGorsel)
+                            secilenBitmap = MediaStore.Images.Media.getBitmap(requireActivity().contentResolver, secilenGorsel)
                             binding.imageView.setImageBitmap(secilenBitmap)
                         }
                     }catch (e: Exception){
